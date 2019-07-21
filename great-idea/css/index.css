@@ -157,30 +157,32 @@ h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 .container {
-	width: 880px;
+	width: 876px;
 	margin: auto;
+	border: 1px solid red;
 }
 
 /* navbar */
 .navbar {
 	display: flex;
 	justify-content: space-between;
+	width: 100%;
 }
 
 .navlink {
 	display: flex;
 	justify-content: space-between;
-	text-decoration: none;
+	width: 72%;
 }
 
-.navbar img {
+.logo {
 	display: flex;
-	margin-left: 60px;
-	margin-top: 40px;
+	margin-right: 43px;
 }
 
-header {
+.services-head {
 	display: flex;
+	flex-direction: column;
 }
 
 .banner {
@@ -239,4 +241,18 @@ footer {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
+}
+
+.main-items {
+	width: 50%
+}
+
+.final-section {
+	display: flex;
+}
+
+.final-text {
+	display: flex;
+	flex-direction: column;
+	width: 48%
 }
