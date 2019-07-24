@@ -283,6 +283,7 @@ footer {
 .services-head {
   border-bottom: 1px solid black;
   margin: 10px;
+  padding-bottom: 5%;
 }
 
 .services-header-img {
@@ -319,6 +320,10 @@ footer {
   flex-direction: column;
   width: 48%;
   margin: 10px;
+}
+
+.final-section ol {
+  padding-left: 20px;
 }
 
 .final-section ol,
